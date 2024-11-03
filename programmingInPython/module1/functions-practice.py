@@ -7,12 +7,15 @@ def talkAboutNicknames(nickname):
 		print('Stupid humans... now I will give you a nickname. You are now. "J-Lo". Congratulations, J-Lo.')
 	else : print('I didn\'t ask for your life story. Geeze.')
 
+def nicknameLength(name):
+	letterCount = len(name)
+	return letterCount
+
 greeting = 'Greetings, I am Robot-1X. What is your name?'
 print(greeting)
 username = input()
-# print('Nice to meet you', username, sep=', ')
 print('Nice to meet you {1}'.format(username))
-nameLength = len(username)
+nameLength = nicknameLength(username)
 print(nameLength, ' is a lot of letters. Do you have a nickname?')
 answer = input()
 

@@ -16,7 +16,7 @@ for flavor in favorites:
 for idx, flavor in enumerate(favorites):
 	print(f'{idx} {flavor}')
 
-# # While loop
+# While loop
 count = 0
 while count < len(favorites):
 	print(f'I like {favorites[count]}')
